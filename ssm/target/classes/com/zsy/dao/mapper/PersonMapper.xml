@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zsy.dao.PersonDao">
-  <select id="selectPerson" resultType="com.zsy.entity.Person">
+  <select id="selectPerson" resultType="person">
    select * from person
   </select>
 </mapper>
